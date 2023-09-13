@@ -1,0 +1,31 @@
+/*This will give the body a linear-gradient background*/
+body{
+	background: linear-gradient(to right, peachpuff, wheat, bisque);
+}
+
+/*This will give the h1 a text color of blue, a text-shadow with a 2 pixel blur-radius a color of blue, set the fontfamily to Times New Roman with a backp of Arial just incase the user's browser does not have Times New Roman, and set the font style to Italic*/
+h1{
+	color: navy;
+	text-shadow:0 0 2px blue;
+	font-family: times new roman, arial;
+	font-style: italic;
+}
+
+/*This will give both the h2 and h3 elements a text color of royalblue, a text-shadow with a 2 pixel blur-radius a color of blue, and set the fontfamily to Times New Roman with a backp of Arial just incase the user's browser does not have Times New Roman*/
+h2, h3{
+	color: royalblue;
+	text-shadow:0 0 2px blue;
+	font-family: times new roman, arial;
+}
+
+/*This will give the paragraphs a text color of mediumblue, a text-shadow with a 2 pixel blur-radius a color of blue, and set the fontfamily to Times New Roman with a backp of Arial just incase the user's browser does not have Times New Roman*/
+p{
+	color: mediumblue;
+	text-shadow:0 0 2px blue;
+	font-family: times new roman, arial;
+}
+
+/*This will style tyhe links darkmagenta after the user has clicked it to let them know that they've visited that page before*/
+a:visited{
+	color: darkmagenta;
+}
